@@ -12,8 +12,9 @@
     
     <br>
     <div class="container">
-    <button class="btn btn-outline-warning mb-5" onclick="loadData()">See my favorite Albums</button >
-        <br>
+    <button class="btn btn-outline-warning mb-3 btn-sm" onclick="loadData()">See my favorite Songs</button ><br>
+    <button class="btn btn-outline-danger mb-5 btn-sm" onclick="hide()">Hide Songs</button >
+        
         
         <div id = "content" class="row"></div>
         
@@ -23,20 +24,22 @@
             var xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
                 if (this.status == 200) {
-                    myFunction( this);
+                    myFunction( this );
                 }
             };
             xhttp.open( "GET", "mysongs.xml", true);
             xhttp.send();
         }
+        var content;
+
         function myFunction(xml) {
             let  xmlDoc = xml.responseXML;
             let x = xmlDoc.getElementsByTagName("album"); 
-            let content = document.getElementById("content"); 
+            content = document.getElementById("content"); 
             for  (let i = 0; i < x.length; i++) {
                 content.innerHTML += 
                 ` 
-                <div class='col col-sm-6 col-md-4 col-lg-3'>
+                <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card bg-light shadow my-2 border-0'>
                         <div class='card-body'>
                         <h4 class='card-title text-primary'>`+ x[i].getElementsByTagName("title")[ 0].childNodes[0].nodeValue +`</h4>
@@ -64,6 +67,10 @@
                 `
                 ;
             }
+        }
+
+        function hide(){
+            content.innerHTML = "";
         }
 
         
