@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<body >
+
+<h1>The XMLHttpRequest Object</h1 >
+<button type="button"  onclick="loadDoc()">Change Content</button >
+<div id="content" >This will be changed</div>
+</div>
+<script>
+    function loadDoc() {
+    let xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        if (this.status == 200 ) {
+            document.getElementById("content").innerHTML =
+            this .responseText;
+        }
+    };
+    xhttp.open("GET", "test.txt" , true); //(method, URL, async)
+    xhttp.send();
+    }
+</script>
+</body>
+</html>
