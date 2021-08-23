@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<mysongs>
+    <album id="1"> 
+         <title>Plainsong</title>
+         <artist>The Cure</artist>
+         <country>England</country>
+         <genre>Gothic Rock</genre>
+         <year>1989</year>
+    </album>
+    <album id="2"> 
+         <title>Pictures of You</title>
+         <artist>The Cure</artist>
+         <country>England</country>
+         <genre>Gothic Rock</genre>
+         <year>1989</year>
+    </album>
+    <album id="3"> 
+         <title>Lullaby</title>
+         <artist>The Cure</artist>
+         <country>England</country>
+         <genre>Gothic Rock</genre>
+         <year>1989</year>
+    </album>
+    <album id="4"> 
+         <title>Stillness Of Heart</title>
+         <artist>Lenny Kravitz</artist>
+         <country>America</country>
+         <genre>Rock</genre>
+         <year>2001</year>
+    </album>
+    <album id="5"> 
+         <title>I'll Be Waiting</title>
+         <artist>Lenny Kravitz</artist>
+         <country>America</country>
+         <genre>Rock</genre>
+         <year>2008</year>
+    </album>
+    <album id="6"> 
+         <title>Believe In Me</title>
+         <artist>Lenny Kravitz</artist>
+         <country>America</country>
+         <genre>Rock</genre>
+         <year>2001</year>
+    </album>
+    <album id="7"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="1"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="8"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="9"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="10"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="11"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="12"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="13"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="14"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="15"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.9</year>
+    </album>
+    <album id="16"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="17"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="18"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="19"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+    <album id="20"> 
+         <title>Tusk</title>
+         <artist>Fleetwood Mac</artist>
+         <country>109.95</country>
+         <genre>Rock</genre>
+         <year>109.95</year>
+    </album>
+</mysongs>

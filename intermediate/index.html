@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Intermediate Working with XML</title>
+  </head>
+  <body>
+    <h1 class="text-center my-3">Intermediate Ecercise</h1>
+    <img class="img-fluid mb-5"src="picture/music.jpg" >
+    
+    <br>
+    <div class="container">
+    <button class="btn btn-outline-warning mb-5" onclick="loadData()">See my favorite Albums</button >
+        <br>
+        
+        <div id = "content" class="row"></div>
+        
+        </div>  
+    <script>
+        function loadData() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    myFunction( this);
+                }
+            };
+            xhttp.open( "GET", "mysongs.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            let  xmlDoc = xml.responseXML;
+            let x = xmlDoc.getElementsByTagName("album"); 
+            let content = document.getElementById("content"); 
+            for  (let i = 0; i < x.length; i++) {
+                content.innerHTML += 
+                ` 
+                <div class='col col-sm-6 col-md-4 col-lg-3'>
+                    <div class='card bg-light shadow my-2 border-0'>
+                        <div class='card-body'>
+                        <h4 class='card-title text-primary'>`+ x[i].getElementsByTagName("title")[ 0].childNodes[0].nodeValue +`</h4>
+                        </div>
+                        <table class="table p-3">
+                            <tr>
+                                <th>Artist: </th>
+                                <td class="text-warning">`+ x[i].getElementsByTagName("artist")[ 0].childNodes[0].nodeValue +`</td>
+                            </tr>
+                            <tr>
+                                <th>Country: </th>
+                                <td>`+ x[i].getElementsByTagName("country")[0].childNodes[0].nodeValue +`</td>
+                            </tr>
+                            <tr>
+                                <th>Genre: </th>
+                                <td>`+ x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue +`</td>
+                            </tr>
+                            <tr>
+                                <th>Year: </th>
+                                <td>`+ x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue  +`</td>
+                            </tr>
+                        </table>
+                        </div>
+                </div> 
+                `
+                ;
+            }
+        }
+
+        
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
