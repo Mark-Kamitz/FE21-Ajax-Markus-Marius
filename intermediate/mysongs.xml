@@ -1,146 +1,167 @@
 <?xml version="1.0"?>
 <mysongs>
-    <album id="1"> 
-         <title>Plainsong</title>
-         <artist>The Cure</artist>
-         <country>England</country>
-         <genre>Gothic Rock</genre>
-         <year>1989</year>
+    <album id="1">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image> 
+          <title>Plainsong</title>
+          <artist>The Cure</artist>
+          <country>England</country>
+          <genre>Gothic Rock</genre>
+          <year>1989</year>
     </album>
-    <album id="2"> 
+    <album id="2">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Pictures of You</title>
          <artist>The Cure</artist>
          <country>England</country>
          <genre>Gothic Rock</genre>
          <year>1989</year>
     </album>
-    <album id="3"> 
+    <album id="3">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Lullaby</title>
          <artist>The Cure</artist>
          <country>England</country>
          <genre>Gothic Rock</genre>
          <year>1989</year>
     </album>
-    <album id="4"> 
+    <album id="4">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Stillness Of Heart</title>
          <artist>Lenny Kravitz</artist>
          <country>America</country>
          <genre>Rock</genre>
          <year>2001</year>
     </album>
-    <album id="5"> 
+    <album id="5">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>I'll Be Waiting</title>
          <artist>Lenny Kravitz</artist>
          <country>America</country>
          <genre>Rock</genre>
          <year>2008</year>
     </album>
-    <album id="6"> 
+    <album id="6">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Believe In Me</title>
          <artist>Lenny Kravitz</artist>
          <country>America</country>
          <genre>Rock</genre>
          <year>2001</year>
     </album>
-    <album id="7"> 
+    <album id="7">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>I'm Yours</title>
          <artist>Jason Mraz</artist>
          <country>America</country>
          <genre>Pop</genre>
          <year>2008</year>
     </album>
-    <album id="8"> 
+    <album id="8">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Have It All</title>
          <artist>Json Mratz</artist>
          <country>America</country>
          <genre>Pop</genre>
          <year>2018</year>
     </album>
-    <album id="8"> 
+    <album id="8">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Love For A Child</title>
          <artist>Json Mratz</artist>
          <country>109.95</country>
          <genre>Pop</genre>
          <year>2008</year>
     </album>
-    <album id="9"> 
+    <album id="9">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>End of the World</title>
          <artist>R.E.M</artist>
          <country>109.95</country>
          <genre>Rock</genre>
          <year>1998</year>
     </album>
-    <album id="10"> 
+    <album id="10">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Little Lies</title>
          <artist>Fleetwood Mac</artist>
          <country>England</country>
          <genre>Rock</genre>
          <year>1987</year>
     </album>
-    <album id="11"> 
+    <album id="11">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Temple of Love</title>
          <artist>The Sisters of Mercy</artist>
          <country>England</country>
          <genre>Rock</genre>
          <year>1984</year>
     </album>
-    <album id="12"> 
+    <album id="12">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>More</title>
          <artist>The Sisters of Mercy</artist>
          <country>109.95</country>
          <genre>Rock</genre>
          <year>109.95</year>
     </album>
-    <album id="13"> 
+    <album id="13">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>I Was Wrong</title>
          <artist>The Sisters of Mercy</artist>
          <country>England</country>
          <genre>Rock</genre>
          <year>1090</year>
     </album>
-    <album id="14"> 
+    <album id="14">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Sunday Bloody Sunday</title>
          <artist>U2</artist>
          <country>England</country>
          <genre>Rock</genre>
          <year>1983</year>
     </album>
-    <album id="15"> 
+    <album id="15">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Epic</title>
          <artist>Faith No More</artist>
          <country>America</country>
          <genre>Rock</genre>
          <year>1990</year>
     </album>
-    <album id="16"> 
+    <album id="16">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Personal Jesus</title>
          <artist>Depeche Mode</artist>
          <country>England</country>
          <genre>Rock</genre>
          <year>1989</year>
     </album>
-    <album id="17"> 
+    <album id="17">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Boys Don't Cry</title>
          <artist>The Cure</artist>
          <country>1England</country>
          <genre>Rock</genre>
          <year>1986</year>
     </album>
-    <album id="18"> 
+    <album id="18">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Living In A Box/title</title>
          <artist>The Cure</artist>
          <country>109.95</country>
          <genre>Rock</genre>
          <year>1987</year>
     </album>
-    <album id="19"> 
+    <album id="19">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Wild one</title>
          <artist>Iggy Pop</artist>
          <country>America</country>
          <genre>Rock</genre>
          <year>1986</year>
     </album>
-    <album id="20"> 
+    <album id="20">
+          <image>https://cdn.pixabay.com/photo/2013/07/12/15/22/musician-149789_960_720.png</image>  
          <title>Rebell Yell</title>
          <artist>Billy Idol</artist>
          <country>England</country>
