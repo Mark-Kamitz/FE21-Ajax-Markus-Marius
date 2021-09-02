@@ -1,5 +1,8 @@
 # FE21-Ajax-Markus-Marius
 
+![Intermediate](https://user-images.githubusercontent.com/85449060/131909774-d4387167-fc19-4314-b2b0-00bfb290233f.png)
+
+
 ## Basic
 
 **Basic Exercise | AJAX - txt**
